@@ -1,0 +1,7 @@
+old_stock_amount = input(" old number of shares you bought")
+old_price = input("enter the old price ")
+new_stock_amount = input(" enter new number of shares you bought ")
+new_price = input("enter the new price ")
+
+
+print((float(old_stock_amount) * float(old_price) + float(new_stock_amount) * float(new_price))/(float(old_stock_amount) + float(new_stock_amount)))
